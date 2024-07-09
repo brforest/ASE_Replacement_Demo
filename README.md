@@ -17,7 +17,116 @@ https://ase.arubanetworks.com/api/solutions/?page_size=1000&page=1&ordering=-mod
 ```
 ### API Response:
 ```
-
+{
+	count: 45,
+	next: null,
+	previous: null,
+	results: [
+		{
+			contributors: [
+				5707,
+				"..."
+			],
+			created: "2019-06-27T00:03:54.541387Z"
+			created_by: {
+				date_joined: "2016-02-20T00:32:46.768797Z",
+				handle: "amit.bordue",
+				id: 5707,
+				is_internal: true,
+				last_login: "2022-07-25T21:45:11.036217Z",
+				solution_contributions_count: 81,
+				submitted_ideas_count: 0,
+				timezone_offset: 420,
+				_meta: {
+					descriptor: "return obj.handle;",
+					name: "User",
+					name_plural: "Users"
+				}
+			},
+			description: "The purpose of this script is to monitor count number of neighbors learnt using ARP.",
+			following_solution: false,
+			has_read_access: true,
+			has_write_access: true,
+			id: 260,
+			kudos: 0,
+			modified: "2024-06-24T19:41:51.469048Z",
+			modified_by: {
+				date_joined: "2013-09-26T01:38:41.975406Z",
+				handle: "ctang",
+				id: 445,
+				is_internal: true,
+				last_login: "2024-07-04T05:59:34.623761Z",
+				solution_contributions_count: 126,
+				submitted_ideas_count: 0,
+				timezone_offset: -60,
+				_meta: {
+					descriptor: "return obj.handle;",
+					name: "User",
+					name_plural: "Users"
+				},
+			},
+			products: [
+				19
+			],
+			product_details: [
+				{
+					acronym: "NAE",
+					human_readable_version_regex: "",
+					id: 19,
+					name: "NAE",
+					solutions: [
+						192,
+						"..."
+					],
+					version_regex: "",
+					_meta: {
+						descriptor: "return obj.acronym + \": \" + obj.name;",
+						name: "Product",
+						name_plural: "Products"
+					}
+				}
+			],
+			restrict_read_access: false,
+			restrict_write_access: true,
+			tags: [
+				184,
+				"..."
+			],
+			tags_details: [
+		        {
+		            "id": 184,
+		            "name": "8400x",
+		            "_meta": {
+		                "descriptor": "return obj.name;",
+		                "name": "Tag",
+		                "name_plural": "Tags"
+		            },
+		            "solutions": [
+		                183,
+		                "..."
+		            ]
+		        },
+		        "..."
+		    ],
+		    title: "neighbors_count_monitor.1.1",
+		    user_voted_down: false,
+		    user_voted_up: false,
+		    views: [
+				{
+					content_type: 38,
+					hits: 188,
+					_meta: {
+						descriptor: "return obj.hits;",
+						name: "Hitcount"
+					}
+				}
+			],
+			vote_model: "es_config_app.SolutionVote"
+			vote_score: 0
+		},
+		"..."
+	]
+}
 ```
 
 ### API Query:
