@@ -8,7 +8,22 @@ https://ase.arubanetworks.com/api/tags
 ```
 ### API Response:
 ```
-
+[
+    {
+        "id": 254,
+        "name": "6400",
+        "_meta": {
+            "descriptor": "return obj.name;",
+            "name": "Tag",
+            "name_plural": "Tags"
+        },
+        "solutions": [
+            295,
+            "..."
+        ]
+    },
+    "..."
+]
 ```
 
 ### API Query: 
