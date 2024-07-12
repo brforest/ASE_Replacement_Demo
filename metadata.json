@@ -1,0 +1,11 @@
+{
+  "scripts": [
+    "application_health_monitor.py": {
+      "name": "application_health_monitor",
+      "tags": ["6300", "64xx", "8100", "8320", "8325", "8400", "8360", "9300", "10000", "application"],
+      "minimum_firmware": "10.08",
+      "maximum_firmware": null,
+      "version": "2.2"
+    }
+  ]
+}
