@@ -1,11 +1,40 @@
 {
-  "scripts": [
-    "application_health_monitor.py": {
-      "name": "application_health_monitor",
-      "tags": ["6300", "64xx", "8100", "8320", "8325", "8400", "8360", "9300", "10000", "application"],
+  "scripts": {
+    "application_health_monitor.2.2": {
+      "script_name": "application_health_monitor",
+      "version": "2.2",
+      "script_name_with_version": "application_health_monitor.2.2",
+      "tags": ["8400x", "nae-aruba-certified", "8320", "nae", "8325", "6400", "6405", "6410", "6300", "8360", "arubaos-cx-min-10.08", "10000", "9300", "8100", "9300s"],
+      "supported_platforms": ["8400x", "8320", "8325", "6400", "6405", "6410", "6300", "8360", "10000", "9300", "8100", "9300s"],
       "minimum_firmware": "10.08",
       "maximum_firmware": null,
-      "version": "2.2"
+      "description": "Network Analytics agent script to monitor application health",
+      "last_modified": "06/24/24 12:40:21",
+      "location": "scripts/sample_dir1/application_health_monitor.2.2.py"
+    },
+    "routing_health_monitor.3.1": {
+      "script_name": "routing_health_monitor",
+      "version": "3.1",
+      "script_name_with_version": "routing_health_monitor.3.1",
+      "tags": ["8400x", "8320", "8325", "6400", "6405", "6410", "6300", "6200", "8360", "10000", "9300", "8100", "9300s"],
+      "supported_platforms": ["8400x", "8320", "8325", "6400", "6405", "6410", "6300", "6200", "8360", "10000", "9300", "8100", "9300s"],
+      "minimum_firmware": "10.13.1000",
+      "maximum_firmware": null,
+      "description": "Agent for monitoring routing health",
+      "last_modified": "06/24/24 12:39:19",
+      "location": "scripts/sample_dir2/routing_health_monitor.3.1.py"
+    },
+    "arp_request_monitor.1.1": {
+      "script_name": "arp_request_monitor",
+      "version": "1.1",
+      "script_name_with_version": "arp_request_monitor.1.1",
+      "tags": ["8400x", "arubaos-cx-min-10.03", "nae-aruba-certified", "nae", "arubaos-cx-max-10.11"],
+      "supported_platforms": ["8400x"],
+      "minimum_firmware": null,
+      "maximum_firmware": "10.11",
+      "description": "Monitoring number of ARP requests coming to the switch CPU",
+      "last_modified": "06/24/24 12:40:30",
+      "location": "scripts/sample_dir1/arp_request_monitor.1.1.py"
     }
-  ]
+  }
 }
